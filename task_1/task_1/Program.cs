@@ -11,6 +11,7 @@ if (userText != null)
     if (chars.Length > 0) 
     {
         Console.WriteLine($"Ошибка ввода. Неподходящие символы -> {string.Join("", chars)}");
+        return;
     }
     else if (userText.Length % 2 != 0)
     {
